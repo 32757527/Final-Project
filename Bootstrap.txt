@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Student Name: Jennifer Fowler, Paul Feaster, and Malik Flowers.
+File Name: index.html
+Instructor: Professor Joyner
+Course: CST 231-01A-->
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1,    shrink-to-fit=no">
+    <meta name="description" content="We are a North Carolina based photography agency comprised of NCAT alumn.
+We provide lessons and guides for those wanting to learn how to take beautiful photos. Please see our GUIDE. Contact us today to learn more!.">
+
+</meta>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32"
+href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180"
+href="images/apple-touch-icon.png">
+<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"></link>
+</link>
+</link>
+</link>
+<!-- My style sheet -->
+<link rel="stylesheet" href="css/styles.css"></link>

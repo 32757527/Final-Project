@@ -1,0 +1,100 @@
+/* CSS
+Student Name: Jennifer Fowler, Paul Feaster, and Malik Flowers.
+File Name: index.html
+Instructor: Professor Joyner
+Course: CST 231-01A */
+
+
+
+
+
+body {
+	display: block;
+	margin: 8px;
+}
+
+
+/* Grid container */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+/* Gradient style rule */
+/* Style rules for main content */
+main {
+	padding: 2%;
+	background-image: linear-gradient(to bottom right, yellow, blue);
+	font-size: 2em;
+}
+
+/* Style rules for navigation area */
+nav {
+	background-color: yellow;
+}
+	
+.mobile-nav a {
+	color: #fff;
+	text-align: left;
+	font-size: 2em;
+	padding: 2%;
+	display: block;
+}
+
+/* Thumbs up or down */
+.rating {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dislike:hover,
+.like:hover {
+  color: #2EBDD1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.active {
+  color: #2EBDD1;
+}
+
+/* Style rules for footer content */
+footer {
+	text-align: center;
+}
+	
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 5), print {
+
+/* Tablet Viewport: Style rules for header content */
+header {
+	margin: 0; 
+	padding: 0;
+	font-size: 3em;
+}
+
+
+}
+
+/* Media query for Mobile Viewport */
+@media screen and (max-width: 8), print {
+
+/* Mobile Viewport: Style rules for header content */
+header {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+
